@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-size: 17px;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -37,10 +38,6 @@ textarea {
     color: #fff;
 }
 
-body {
-    font-size: 17px;
-}
-
 body,
 h1,
 h2,
@@ -66,6 +63,12 @@ h6,
     padding: 20px 15px;
     -ms-border-radius: 9px;
     border-radius: 9px;
+}
+
+.form-control:focus {
+    border-color: #2196f3;
+    box-shadow: none;
+    -webkit-box-shadow: none;
 }
 
 .btn {
